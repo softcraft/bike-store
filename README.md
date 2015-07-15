@@ -1,40 +1,42 @@
-# bike-store
+# Bike-store
 
-I stage
-  Objetive
+<h2>1 stage.</h2>
+  Objetive:
     Create the frontend for the client begins to publicize your business.
-    The main sitie will be index, about us, products, last items and  blog.
-  Technologies used
-    The web will be created with HTML5, CSS3 and JS. It will be responsive in this  project.
+    The main sitie will be index, about us, products, last items and  blog. <br><br>
+  Technologies used:
+    The web will be created with HTML5, CSS3 and JS. It will be responsive in this  project.<br><br>
   
-II stage
-  Objetive
-    Develop the backend of the business.
-  Technologies used
-    Ruby
+<h2>2 stage.</h2>
+ Objetive:
+    Develop the backend of the business.<br><br>
+ Technologies used:
+    Ruby.<br><br>
     
-  The  requeriments are:
+  <h3>The  requeriments are:</h3>
     
     1. Blog administration.
     
     2. Stock control:
-      -Add, edit and delete products.
+      A) Add, edit and delete products.
         -Name, description, selling price, cost, brand. 
-      -Add, edit and delete suppliers.
-      -In / Out.
-      -Top sellers.
-      -Least selling.
-      -Stock notifications.
+      B) Add, edit and delete suppliers.
+      C) In / Out.
+      D) Top sellers.
+      E) Least selling.
+      F) Stock notifications.
       
     3. Accounting control:
-      -In / On.
-      -Expense control.
-      -Accounting record.
-      -generate ticket.
+      A) In / On.
+      B) Expense control.
+      C) Accounting record.
+      D) generate ticket.
       
-III stage
-  Objetive
-    Develop online shop.
-  
+<h2>3 stage.</h2>
+ Objetive:
+    Create sessions for the system.<br><br>
     
-        
+<h2>4 stage.</h2>
+  Objetive:
+    Develop online shop. <br><br>
+  Technologies used:
