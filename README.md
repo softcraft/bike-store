@@ -1,24 +1,29 @@
 # Bike-store
-<h2>Version</h2>
+##Version
     
-<h2>Vision</h2>
+##Vision
 
-<h2>How is it used?</h2>
+##How is it used?
 
-<h2>Develop</h2>
+##Develop
 
-  <h3>stage 1.</h3>
+  ###stage 1.
     Objetive:
       Create the frontend for the client begins to publicize your business.
-      The main sitie will be index, about us, products, last items and blog. <br><br>
+      The main sitie will be index, about us, last items and blog. 
     Technologies used:
-      The web will be created with HTML5, CSS3 and JS. It will be responsive in this project.<br><br>
+      The web will be created with HTML5, CSS3 and JS. It will be responsive in this project.
     
-  <h3>stage 2.</h3>
+  ###stage 2.
+    Objetive:
+      Develop online shop. 
+    Technologies used:
+
+  ###stage 3.
    Objetive:
-      Develop the backend of the stock control. <br><br>
+      Develop the backend of the stock control. 
    Technologies used:
-      Ruby.<br><br>
+      Ruby.
       
   The  requeriments are:
 
@@ -31,11 +36,11 @@
         F) Stock notifications.
 
    
-  <h3>stage 3.</h3>
+  ###stage 4.
    Objetive:
-      Develop the backend of the accounting control. <br><br>
+      Develop the backend of the accounting control. 
    Technologies used:
-      Ruby.<br><br>
+      Ruby.
   
   The  requeriments are:
 
@@ -44,15 +49,11 @@
         C) Accounting record.
         D) generate ticket.
       
-  <h3>stage 4.</h3>
+  ###stage 5.
    Objetive:
-      Create sessions for the system.<br><br>
+      Create sessions for the system.
       
-  <h2>stage 5.</h2>
-    Objetive:
-      Develop online shop. <br><br>
-    Technologies used:
 
-<h2>Collaboration</h2>
+##Collaboration
 
-<h2>License</h2>
+##License
