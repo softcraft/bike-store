@@ -1,25 +1,25 @@
 # Bike-store
-##Version
+## Version
     
-##Vision
+## Vision
 
-##How is it used?
+## How is it used?
 
-##Develop
+## Develop
 
-  ###stage 1.
+  ### stage 1.
     Objetive:
       Create the frontend for the client begins to publicize your business.
       The main sitie will be index, about us, last items and blog. 
     Technologies used:
       The web will be created with HTML5, CSS3 and JS. It will be responsive in this project.
     
-  ###stage 2.
+  ### stage 2.
     Objetive:
       Develop online shop. 
     Technologies used:
 
-  ###stage 3.
+  ### stage 3.
    Objetive:
       Develop the backend of the stock control. 
    Technologies used:
@@ -36,7 +36,7 @@
         F) Stock notifications.
 
    
-  ###stage 4.
+  ### stage 4.
    Objetive:
       Develop the backend of the accounting control. 
    Technologies used:
@@ -49,11 +49,11 @@
         C) Accounting record.
         D) generate ticket.
       
-  ###stage 5.
+  ### stage 5.
    Objetive:
       Create sessions for the system.
       
 
-##Collaboration
+## Collaboration
 
-##License
+## License
