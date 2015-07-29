@@ -1,4 +1,4 @@
 baseurl = "http://bike-store.herokuapp.com/"
 languageCode = "en-us"
 title = "Bike Store"
-theme = "hyde"
+theme = "heather-hugo"
