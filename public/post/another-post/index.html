@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="A Hugo User"> 
+
+
+
+    <title> - http://localhost:1313/</title>
+    <link rel="canonical" href="http://localhost:1313/post/another-post/">
+        <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost:1313/">BikeState</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/post/">Post Index</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="well well-sm">
+                    <h3><br> <small></small></h3>
+                    <hr>
+                    <p>+++ title = &ldquo;Another Hugo Post&rdquo; description = &ldquo;Nothing special, but one post is boring.&rdquo; date = &ldquo;2014-09-02&rdquo; categories = [ &ldquo;example&rdquo;, &ldquo;configuration&rdquo; ] tags = [ &ldquo;example&rdquo;, &ldquo;hugo&rdquo;, &ldquo;toml&rdquo; ] +++</p>
+
+<p>TOML, YAML, JSON &mdash; Oh my!</p>
+
+<p>One of the nifty Hugo features we should cover: flexible configuration and front matter formats! This entry has front matter in toml, unlike the last one which used yaml, and json is also available if that&rsquo;s your preference.</p>
+
+<p>The toml front matter used on this entry:</p>
+
+<p>+++
+title = &ldquo;Another Hugo Post&rdquo;
+description = &ldquo;Nothing special, but one post is boring.&rdquo;
+date = &ldquo;2014-09-02&rdquo;
+categories = [ &ldquo;example&rdquo;, &ldquo;configuration&rdquo; ]
+tags = [
+    &ldquo;example&rdquo;,
+    &ldquo;hugo&rdquo;,
+    &ldquo;toml&rdquo;
+]
++++
+This flexibility also extends to your site&rsquo;s global configuration file. You&rsquo;re free to use any format you prefer::simply name the file config.yaml, config.toml or config.json, and go on your merry way.</p>
+
+<p>JSON Example</p>
+
+<p>How would this entry&rsquo;s front matter look in json? That&rsquo;s easy enough to demonstrate:</p>
+
+<p>{
+    &ldquo;title&rdquo;: &ldquo;Another Hugo Post&rdquo;,
+    &ldquo;description&rdquo;: &ldquo;Nothing special, but one post is boring.&rdquo;,
+    &ldquo;date&rdquo;: &ldquo;2014-09-02&rdquo;,
+    &ldquo;categories&rdquo;: [ &ldquo;example&rdquo;, &ldquo;configuration&rdquo; ],
+    &ldquo;tags&rdquo;: [
+        &ldquo;example&rdquo;,
+        &ldquo;hugo&rdquo;,
+        &ldquo;toml&rdquo;
+    ],
+}</p>
+
+            </div>
+        </div>
+
+        
+        <div class="col-md-3">
+            <div class="well well-sm"> 
+                <h4>January 1, 0001<br>
+                <small>190 words</small></h4>
+                <hr>
+                <strong>Categories</strong>
+                <ul class="list-unstyled">
+                
+                </ul>
+                <hr>
+                <strong>Tags</strong><br>
+                
+            </div>
+                <div class="panel panel-default">
+        <div class="panel-heading" style="padding: 2px 15px;">
+            <h4>Connect. Socialize.</h4>
+        </div>
+        <div class="panel-body">
+            <a href="https://github.com/SomeSillyUserNameHere/" class="btn btn-primary btn-xs"><i class="fa fa-github-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/SomeSillyUserNameHere" class="btn btn-info btn-xs"><i class="fa fa-facebook-square fa-2x"></i></a>
+
+            <div class="alert alert-info alert-dismissable" style="margin-top:25px;margin-bottom:5px;">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <strong>Hey, listen!</strong><br>
+                You should modify the <code>layouts/partials/menu.html</code> template and include your own profile links.
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+        <footer>
+            <div class="row">
+                <hr>
+                <div class="col-sm-12">
+                    <p>&copy; Enthusiastic Hugo User 2014<br>
+                    Built with <a href="https://github.com/spf13/hugo">Hugo</a></p>
+                </div>
+            </div>
+        </footer>
+
+</div>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
+

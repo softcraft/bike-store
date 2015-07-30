@@ -1,4 +1,98 @@
-baseurl = "http://bike-store.herokuapp.com/"
+baseurl = "http://bikestate.com/"
 languageCode = "en-us"
-title = "Bike Store"
-theme = "heather-hugo"
+title = "BikeState"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Octavio Razo"
+	description = "Your description"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "BikeState"
+
+		[params.navigation.links]
+			about     = "Nosotros"
+			services  = "Servicios"
+			portfolio = "Blog"
+			contact   = "Contacto"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "BIKE STATE"
+		subtitle   = "Un nuevo concepto para todo tipo de ciclistas. "
+		buttonText = "CONOCENOS"
+
+
+	# About section
+	[params.about]
+		headline    = "Por quė una tienda más de ciclismo?"
+		description = " El ciclismo es un deporte que desde hace algunos años esta en crecimiento. Los ciclistas cada vez somos mas exigentes, buscamos mejores piezas, buscamos quien nos brinde mantenimiento y asesoria. En base a estos y otros muchos requerimientos BIKE STATE llego para innovar."
+
+		buttonText  = "Compra online"
+
+
+	# Service section
+	[params.services]
+		headline = "Servicios que te ofrecemos"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "XC cross country"
+            description = "Es la modalidad más extendida y popular. Para los más “pros”, el XC es sinónimo de MTB. Tenemos todo lo que tu bici de montaña."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "All Mountain / Enduro"
+			description = "Disciplinas propias de bicis de doble suspensión con recorridos grandes (100 y 140 mm). Aqui encontrarás todo lo que busques."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Ruta"
+            description = "Disciplina para ciclistas que prefieren las carreteras. Aqui en BIKE STATE, encontraras las mejores marcas en bicicletas y accesorios para ''rutear''."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Urbana / Fixie "
+            description = "Ciclismo para todos, también para los que la bicicleta es su medio de transporte. Sea fixie, sea urbana, triciclo o la que prefieras."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Tenemos para ti los mejores consejos, eventos y más!"
+
+		[params.aside.button]
+			text = "Blog"
+			link = ""
+
+	# Contact section
+	[params.contact]
+		headline = "Ven y conocenos!"
+		description = "Estamos en Av. Virrey de Mendoza No 0. CP. 59690 Zamora Michoacan, México  "
+		phone = "000-456-6789"
+		email = "contacto@bikestate.com"
