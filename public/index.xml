@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on BikeState </title>
+    <title>BikeState</title>
     <link>http://localhost:1313/</link>
-    <language>en-US</language>
-    <author>Enthusiastic Hugo User</author>
-    <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
-    <updated>Fri, 21 Jun 2013 11:27:27 -0400</updated>
+    <description>Recent content on BikeState</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jun 2013 11:27:27 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Nitro: A quick and simple profiler for Go</title>
       <link>http://localhost:1313/post/nitro/</link>
       <pubDate>Fri, 21 Jun 2013 11:27:27 -0400</pubDate>
-      <author>Enthusiastic Hugo User</author>
+      
       <guid>http://localhost:1313/post/nitro/</guid>
       <description>
 
@@ -40,9 +41,54 @@ of the library.&lt;/p&gt;
     
     <item>
       <title></title>
+      <link>http://localhost:1313/post/another-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/another-post/</guid>
+      <description>&lt;p&gt;+++ title = &amp;ldquo;Another Hugo Post&amp;rdquo; description = &amp;ldquo;Nothing special, but one post is boring.&amp;rdquo; date = &amp;ldquo;2014-09-02&amp;rdquo; categories = [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;configuration&amp;rdquo; ] tags = [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;hugo&amp;rdquo;, &amp;ldquo;toml&amp;rdquo; ] +++&lt;/p&gt;
+
+&lt;p&gt;TOML, YAML, JSON &amp;mdash; Oh my!&lt;/p&gt;
+
+&lt;p&gt;One of the nifty Hugo features we should cover: flexible configuration and front matter formats! This entry has front matter in toml, unlike the last one which used yaml, and json is also available if that&amp;rsquo;s your preference.&lt;/p&gt;
+
+&lt;p&gt;The toml front matter used on this entry:&lt;/p&gt;
+
+&lt;p&gt;+++
+title = &amp;ldquo;Another Hugo Post&amp;rdquo;
+description = &amp;ldquo;Nothing special, but one post is boring.&amp;rdquo;
+date = &amp;ldquo;2014-09-02&amp;rdquo;
+categories = [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;configuration&amp;rdquo; ]
+tags = [
+    &amp;ldquo;example&amp;rdquo;,
+    &amp;ldquo;hugo&amp;rdquo;,
+    &amp;ldquo;toml&amp;rdquo;
+]
++++
+This flexibility also extends to your site&amp;rsquo;s global configuration file. You&amp;rsquo;re free to use any format you prefer::simply name the file config.yaml, config.toml or config.json, and go on your merry way.&lt;/p&gt;
+
+&lt;p&gt;JSON Example&lt;/p&gt;
+
+&lt;p&gt;How would this entry&amp;rsquo;s front matter look in json? That&amp;rsquo;s easy enough to demonstrate:&lt;/p&gt;
+
+&lt;p&gt;{
+    &amp;ldquo;title&amp;rdquo;: &amp;ldquo;Another Hugo Post&amp;rdquo;,
+    &amp;ldquo;description&amp;rdquo;: &amp;ldquo;Nothing special, but one post is boring.&amp;rdquo;,
+    &amp;ldquo;date&amp;rdquo;: &amp;ldquo;2014-09-02&amp;rdquo;,
+    &amp;ldquo;categories&amp;rdquo;: [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;configuration&amp;rdquo; ],
+    &amp;ldquo;tags&amp;rdquo;: [
+        &amp;ldquo;example&amp;rdquo;,
+        &amp;ldquo;hugo&amp;rdquo;,
+        &amp;ldquo;toml&amp;rdquo;
+    ],
+}&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:1313/post/hello-hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      <author>Enthusiastic Hugo User</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/post/hello-hugo/</guid>
       <description>
 
@@ -81,51 +127,6 @@ tags:
 &lt;h2 id=&#34;blog:559804b0a39dd16d2d1d1238c597145a&#34;&gt;- &amp;ldquo;blog&amp;rdquo;&lt;/h2&gt;
 
 &lt;p&gt;This section, called &amp;lsquo;Front Matter&amp;rsquo;, is what tells Hugo about the content in this file: the title of the item, the description, and the date it was posted. In our example, we&amp;rsquo;ve added two custom bits of data too. The categories and tags sections are used in this example for indexing/grouping content. You will learn more about what that means by examining the code in this example and through reading the Hugo documentation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/another-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/post/another-post/</guid>
-      <description>&lt;p&gt;+++ title = &amp;ldquo;Another Hugo Post&amp;rdquo; description = &amp;ldquo;Nothing special, but one post is boring.&amp;rdquo; date = &amp;ldquo;2014-09-02&amp;rdquo; categories = [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;configuration&amp;rdquo; ] tags = [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;hugo&amp;rdquo;, &amp;ldquo;toml&amp;rdquo; ] +++&lt;/p&gt;
-
-&lt;p&gt;TOML, YAML, JSON &amp;mdash; Oh my!&lt;/p&gt;
-
-&lt;p&gt;One of the nifty Hugo features we should cover: flexible configuration and front matter formats! This entry has front matter in toml, unlike the last one which used yaml, and json is also available if that&amp;rsquo;s your preference.&lt;/p&gt;
-
-&lt;p&gt;The toml front matter used on this entry:&lt;/p&gt;
-
-&lt;p&gt;+++
-title = &amp;ldquo;Another Hugo Post&amp;rdquo;
-description = &amp;ldquo;Nothing special, but one post is boring.&amp;rdquo;
-date = &amp;ldquo;2014-09-02&amp;rdquo;
-categories = [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;configuration&amp;rdquo; ]
-tags = [
-    &amp;ldquo;example&amp;rdquo;,
-    &amp;ldquo;hugo&amp;rdquo;,
-    &amp;ldquo;toml&amp;rdquo;
-]
-+++
-This flexibility also extends to your site&amp;rsquo;s global configuration file. You&amp;rsquo;re free to use any format you prefer::simply name the file config.yaml, config.toml or config.json, and go on your merry way.&lt;/p&gt;
-
-&lt;p&gt;JSON Example&lt;/p&gt;
-
-&lt;p&gt;How would this entry&amp;rsquo;s front matter look in json? That&amp;rsquo;s easy enough to demonstrate:&lt;/p&gt;
-
-&lt;p&gt;{
-    &amp;ldquo;title&amp;rdquo;: &amp;ldquo;Another Hugo Post&amp;rdquo;,
-    &amp;ldquo;description&amp;rdquo;: &amp;ldquo;Nothing special, but one post is boring.&amp;rdquo;,
-    &amp;ldquo;date&amp;rdquo;: &amp;ldquo;2014-09-02&amp;rdquo;,
-    &amp;ldquo;categories&amp;rdquo;: [ &amp;ldquo;example&amp;rdquo;, &amp;ldquo;configuration&amp;rdquo; ],
-    &amp;ldquo;tags&amp;rdquo;: [
-        &amp;ldquo;example&amp;rdquo;,
-        &amp;ldquo;hugo&amp;rdquo;,
-        &amp;ldquo;toml&amp;rdquo;
-    ],
-}&lt;/p&gt;
 </description>
     </item>
     

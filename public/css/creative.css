@@ -15,7 +15,8 @@ body {
 }
 
 hr {
-    max-width: 50px;
+    -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s;
+    width: 50px;
     border-color: #f05f40;
     border-width: 3px;
 }
@@ -24,11 +25,13 @@ hr.light {
     border-color: #fff;
 }
 
+hr:hover {
+    width: 170px;
+}
+
 a {
     color: #f05f40;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s;
 }
 
 a:hover,
@@ -50,6 +53,15 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+/*add by @tavo*/
+#pp{text-align: justify; font-size: 15px; padding: 5px; font-weight:lighter;}
+#footer{ width:100%; height:100px; background:#000; text-align: center; padding-top: 50px}
+#footer a{color:#fff; font-size: 12px; }
+#footer p{color: #f05f40; font-size: 12px}
+.social{margin:auto; width:300px; padding-top:30px }
+.social img{width:40px; height: 40px; margin:12.5px; -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s; }
+.social img:hover{opacity: .7}
+
 
 .bg-primary {
     background-color: #f05f40;
@@ -244,8 +256,21 @@ header .header-content .header-content-inner p {
 }
 
 .service-box {
-    margin: 50px auto 0;
+    -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s;
+    margin: 30px auto 0;
+    padding: 10px;
+    cursor: pointer;
     max-width: 400px;
+}
+.service-box img{
+    -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s;
+    width:80px; border-bottom:3px solid #f05f40; padding:9px
+}
+.service-box:hover{
+    background: 
+}
+.service-box:hover img{
+    border-radius:50%;
 }
 
 @media(min-width:992px) {
