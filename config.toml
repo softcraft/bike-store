@@ -1,4 +1,133 @@
 baseurl = "http://bike-store.herokuapp.com/"
 languageCode = "en-us"
-title = "Bike Store"
-theme = "heather-hugo"
+title = "BikeState"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Octavio Razo"
+	description = "Site for BIKESTATE sotore. Created by Wbx.technology.  http://github.com/tavorazo/bike-state"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "http://wbx.technology/wbx_2015/BK/View/IMG/whitelogobikestate.png"
+
+		[params.navigation.links]
+			about     = "Nosotros"
+			services  = "Servicios"
+			portfolio = "Blog"
+			contact   = "Contacto"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "BIKE STATE"
+		subtitle   = "Un nuevo concepto para todo tipo de ciclistas. "
+		buttonText = "CONOCENOS"
+
+        [[params.hero.list]]
+        	social = "https://cdn2.iconfinder.com/data/icons/social-18/512/Google_Plus-2-48.png"
+        [[params.hero.list]]
+        	social = "https://cdn2.iconfinder.com/data/icons/social-18/512/Twitter-3-48.png"
+        [[params.hero.list]]
+        	social = "https://cdn2.iconfinder.com/data/icons/social-18/512/Facebook-3-48.png"
+	 	[[params.hero.list]]
+        	social =  "https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/Instagram-48.png"
+
+	# About section
+	[params.about]
+		headline    = "Porquė una tienda más de ciclismo?"
+		description = " El ciclismo es un deporte que desde hace algunos años esta en un fuerte crecimiento, y los ciclistas cada vez somos mas exigentes, buscamos mejores piezas, buscamos quien nos brinde un mantenimiento y una asesoria profesional. En base a estos y otros muchos requerimientos BIKE STATE llego para innovar."
+
+		buttonText  = "Compra online"
+
+
+	# Service section
+	[params.services]
+		headline = "Servicios que te ofrecemos"
+
+        [[params.services.list]]
+        	i = "https://cdn4.iconfinder.com/data/icons/line-icons-3/256/bicycle-128.png"
+            title = "Bicicletas"
+            description = "Tenemos la mejor variedad de marcas en bicicletas de cualquier disciplina de ciclismo, asi como de todo tipo de rodado. "
+
+        [[params.services.list]]
+			i = "https://cdn2.iconfinder.com/data/icons/wsd-bicycle/512/wsd_bicycle_08-128.png"
+			title = "Accesorios"
+			description = "Aqui encontrarás ese accesorio que tanto buscas para que te acompañe en tus rodadas (Jerseys, anforas, tools, guantes, cascos, luces, etc)."
+
+		[[params.services.list]]
+			i = "https://cdn2.iconfinder.com/data/icons/wsd-bicycle/512/wsd_bicycle_10-128.png"
+            title = "Mecanico"
+            description = "Ya no te azotes con malos mecanicos, tenemos el mejor servicio para ti y tu bicicleta. Ven y compruebalo!"
+
+        [[params.services.list]]
+            i = "https://cdn3.iconfinder.com/data/icons/wsd-bicycle/512/wsd_bicycle_32-128.png"
+            title = "Cotorreo"
+            description = "No solo somos tienda, también somos amigos! ven y enterate de eventos, salidas y consejos que tenemos para ti."
+
+		[[params.services.list2]]
+         	brand = "http://www.biciclinic.com/wp-content/uploads/2014/06/logo-mavic-marcas-biciclinic.png"
+		[[params.services.list2]]
+         	brand = "http://www.kingbarcelona.com/images/manufacturers/bell-logo.png"
+		[[params.services.list2]]
+         	brand = "http://www.tortugasbike.com/img/cms/oakleynegro.png"
+		[[params.services.list2]]
+         	brand = "http://www.kingbarcelona.com/images/manufacturers/gopro-logo.png"
+        [[params.services.list2]]
+         	brand = "http://flatoutcycles.co.uk/media/catalog/category/xHopeTechLogo_1.png.pagespeed.ic.-laIxBNtL1.jpg"
+        [[params.services.list2]]
+         	brand = "https://lh6.googleusercontent.com/-LZdtXn6uW84/VF3wWrI8UxI/AAAAAAAAD6I/4gBjiBAOLL4/w640-h295-no/2000px-Cube_Logo_opt.png"
+        [[params.services.list2]]
+         	brand = "http://www.fussionbike.es/wp-content/uploads/2014/06/marca-fox.png"
+        [[params.services.list2]]
+         	brand = "https://lh6.googleusercontent.com/-m4RDY8BMuno/VF3wW8WFv3I/AAAAAAAAD6Q/4rNNqOJjbCg/w640-h468-no/2014_Trek_Color_Vertical_on_white_opt.png"
+        [[params.services.list2]]
+         	brand = "http://atvondemand.com/news/wp-content/uploads/2013/07/cst_logo.png"
+        [[params.services.list2]]
+         	brand = "http://www.tortugasbike.com/img/cms/oakleynegro.png"
+		[[params.services.list2]]
+         	brand = "http://www.kingbarcelona.com/images/manufacturers/gopro-logo.png"
+        [[params.services.list2]]
+         	brand = "http://www.fussionbike.es/wp-content/uploads/2014/06/marca-fox.png"
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Tenemos para ti los mejores consejos, eventos y más!"
+
+		[params.aside.button]
+			text = "Blog"
+			link = ""
+
+	# Contact section
+	[params.contact]
+		headline = "Ven y conocenos!"
+		description = "Estamos en Av. Virrey de Mendoza No 0. CP. 59690 Zamora Michoacan, México  "
+		phone = "000-456-6789"
+		email = "contacto@bikestate.com"
+		footer = "Copyright © Bikestate | 2015  "
+		link = "| Wbx®   "
+		linkto = "http://wbx.technology"
